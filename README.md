@@ -6,6 +6,7 @@ Se requiere una aplicación para administrar las reservas de un hotel. El sistem
 
 ## DER (diagrama de entidad relación)
 Para entender la forma en que interactúan las entidades por medio de sus relaciones y los atributos que posee cada una 
+![DER](https://github.com/juandmurillo/ReservasPostgreSQL/assets/43784917/2d4c688d-ee57-4030-b956-61edffbce398)
 
 ## MR (Modelo relacional)
 Este es un diagrama un poco mas complejo implementando las reglas de transformación
