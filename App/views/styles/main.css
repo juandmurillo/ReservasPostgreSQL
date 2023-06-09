@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+    --primary: #000000;
+    --light: #fff;
+    --grey: #4d4d4d;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;  
+    font-weight: 300;
+    color: var(--light);
+}
+
+
+
+.pag:hover,.pag{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+#sidebar-container{
+    min-height: 100vh;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem !important;
+    color: var(--light) !important;
+}
+#sidebar-container .menu{
+    width: 14rem !important;
+    padding-left: 10px;
+}
+
+.bx{
+    margin: 2px;
+    padding-right: 4px;
+}
+
+.container{
+    padding: 30px;
+}
+.cont{
+    height: 100vh !important;
+    overflow-y: scroll !important;
+    
+}
+.centered {
+    text-align: center !important; 
+    vertical-align: middle !important;
+}
+
+.titulo{
+    justify-content: space-between;
+    text-align: center !important; 
+    vertical-align: middle !important;
+    
+}
+
+span{
+    font-weight: bold;
+}
+
+.datos-cliente > h4{
+    font-size: 20px;
+}
+.activa{
+    color: yellow;
+}
+.cancelada{
+    color: gray;
+}
+.pendiente{
+    color: rgb(150, 7, 7);
+}
+.finalizada{
+    color: green;
+}
